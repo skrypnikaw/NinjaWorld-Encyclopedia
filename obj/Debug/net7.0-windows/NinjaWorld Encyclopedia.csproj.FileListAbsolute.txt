@@ -1,0 +1,21 @@
+D:\NWE\NinjaWorld Encyclopedia\bin\Debug\net7.0-windows\NinjaWorld Encyclopedia.exe
+D:\NWE\NinjaWorld Encyclopedia\bin\Debug\net7.0-windows\NinjaWorld Encyclopedia.deps.json
+D:\NWE\NinjaWorld Encyclopedia\bin\Debug\net7.0-windows\NinjaWorld Encyclopedia.runtimeconfig.json
+D:\NWE\NinjaWorld Encyclopedia\bin\Debug\net7.0-windows\NinjaWorld Encyclopedia.dll
+D:\NWE\NinjaWorld Encyclopedia\bin\Debug\net7.0-windows\NinjaWorld Encyclopedia.pdb
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.csproj.AssemblyReference.cache
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\App.g.cs
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia_MarkupCompile.cache
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia_MarkupCompile.lref
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\MainWindow.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.g.resources
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.GeneratedMSBuildEditorConfig.editorconfig
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.AssemblyInfoInputs.cache
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.AssemblyInfo.cs
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.csproj.CoreCompileInputs.cache
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.dll
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\refint\NinjaWorld Encyclopedia.dll
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.pdb
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.genruntimeconfig.cache
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\ref\NinjaWorld Encyclopedia.dll
