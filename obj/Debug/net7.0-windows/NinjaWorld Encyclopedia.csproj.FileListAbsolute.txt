@@ -27,3 +27,4 @@ D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\T
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\CalculatorBase.g.cs
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\CalculatorBase.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\App.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\ScrollViewer.baml

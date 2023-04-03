@@ -12,6 +12,7 @@
                 <ResourceDictionary Source="Views/Styles/StyleBase/Expander.xaml" />
                 <ResourceDictionary Source="Views/Styles/StyleBase/Colors.xaml" />
                 <ResourceDictionary Source="Views/Styles/StyleBase/StyleTextBlock.xaml" />
+                <ResourceDictionary Source="Views/Styles/StyleBase/ScrollViewer.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

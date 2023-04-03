@@ -27,6 +27,9 @@
     <Page Update="Views\Styles\StyleBase\Expander.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Styles\StyleBase\ScrollViewer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Styles\StyleBase\StyleTextBlock.xaml">
       <SubType>Designer</SubType>
     </Page>
