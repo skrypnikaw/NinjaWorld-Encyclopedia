@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\NWE\NinjaWorld Encyclopedia\App.xaml
-5790411459
+61414600225
 
 9498722900
 198-2048575587
-Views\Base\MainWindow.xaml;Views\Pages\Calculator\CalculatorBase.xaml;Views\Styles\StyleBase\Button.xaml;Views\Styles\StyleBase\Colors.xaml;Views\Styles\StyleBase\Expander.xaml;
+Views\Base\MainWindow.xaml;Views\Pages\Calculator\CalculatorBase.xaml;Views\Styles\StyleBase\Button.xaml;Views\Styles\StyleBase\Colors.xaml;Views\Styles\StyleBase\Expander.xaml;Views\Styles\StyleBase\TextBox.xaml;
 
 False
 
