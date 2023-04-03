@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\NWE\NinjaWorld Encyclopedia\App.xaml
-11011100994
+71788260757
 
-6-389405417
+7-540764403
 198-2048575587
-Views\Base\MainWindow.xaml;
+Views\Base\MainWindow.xaml;Views\Pages\Calculator\CalculatorBase.xaml;Views\Styles\StyleBase\Button.xaml;Views\Styles\StyleBase\Colors.xaml;Views\Styles\StyleBase\Expander.xaml;Views\Styles\StyleBase\StyleTextBlock.xaml;Views\Styles\StyleBase\TextBox.xaml;
 
-False
+True
 

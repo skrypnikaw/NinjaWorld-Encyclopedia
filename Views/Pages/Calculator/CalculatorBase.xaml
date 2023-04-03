@@ -3,7 +3,6 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:NWEncyclopedia.View.Pages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="BaseCalculatorPage"
     MinWidth="1200"
@@ -311,11 +310,11 @@
                             Style="{StaticResource StyleTextBlock}"
                             Text="Команда 1" />
                     </Border>
-                    <Button Content="Персонаж 1" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 2" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 3" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 4" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 5" Template="{StaticResource ButtonBar}" />
+                    <Button Content="Персонаж 1" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 2" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 3" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 4" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 5" Template="{StaticResource BaseButton}" />
                     <Border
                         MaxWidth="170"
                         Margin="0,0,0,20"
@@ -326,11 +325,11 @@
                             Style="{StaticResource StyleTextBlock}"
                             Text="Команда 2" />
                     </Border>
-                    <Button Content="Персонаж 1" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 2" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 3" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 4" Template="{StaticResource ButtonBar}" />
-                    <Button Content="Персонаж 5" Template="{StaticResource ButtonBar}" />
+                    <Button Content="Персонаж 1" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 2" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 3" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 4" Template="{StaticResource BaseButton}" />
+                    <Button Content="Персонаж 5" Template="{StaticResource BaseButton}" />
                 </StackPanel>
 
             </Grid>

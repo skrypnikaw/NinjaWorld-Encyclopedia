@@ -19,3 +19,10 @@ D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\NinjaWorld Encyclopedia.
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\ref\NinjaWorld Encyclopedia.dll
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Base\MainWindow.g.cs
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Base\MainWindow.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\Button.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\Colors.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\Expander.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\StyleTextBlock.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\TextBox.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\CalculatorBase.g.cs
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\CalculatorBase.baml

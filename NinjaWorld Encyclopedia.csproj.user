@@ -21,5 +21,17 @@
     <Page Update="Views\Styles\StyleBase\Button.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Styles\StyleBase\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\StyleBase\Expander.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\StyleBase\StyleTextBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\StyleBase\TextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

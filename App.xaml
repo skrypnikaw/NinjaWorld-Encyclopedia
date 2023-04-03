@@ -7,11 +7,11 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="View/Styles/StyleBase/Button.xaml" />
-                <ResourceDictionary Source="View/Styles/StyleBase/TextBox.xaml" />
-                <ResourceDictionary Source="View/Styles/StyleBase/Expander.xaml" />
-                <ResourceDictionary Source="View/Styles/StyleBase/Colors.xaml" />
-                <ResourceDictionary Source="View/Styles/StyleBase/StyleTextBlock.xaml" />
+                <ResourceDictionary Source="Views/Styles/StyleBase/Button.xaml" />
+                <ResourceDictionary Source="Views/Styles/StyleBase/TextBox.xaml" />
+                <ResourceDictionary Source="Views/Styles/StyleBase/Expander.xaml" />
+                <ResourceDictionary Source="Views/Styles/StyleBase/Colors.xaml" />
+                <ResourceDictionary Source="Views/Styles/StyleBase/StyleTextBlock.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
