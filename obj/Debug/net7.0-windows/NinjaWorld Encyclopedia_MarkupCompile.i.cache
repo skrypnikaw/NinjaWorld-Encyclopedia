@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\NWE\NinjaWorld Encyclopedia\App.xaml
-2-1816163278
+3-220476619
 
 9498722900
 198-2048575587
-Views\Base\MainWindow.xaml;Views\Pages\Calculator\CalculatorBase.xaml;
+Views\Base\MainWindow.xaml;Views\Pages\Calculator\CalculatorBase.xaml;Views\Styles\StyleBase\Button.xaml;
 
 False
 
