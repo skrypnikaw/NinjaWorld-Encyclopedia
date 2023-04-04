@@ -28,3 +28,4 @@ D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\C
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\CalculatorBase.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\App.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\ScrollViewer.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\Calculator\TextBlockStyle1.baml
