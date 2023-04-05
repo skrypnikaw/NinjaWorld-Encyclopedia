@@ -22,10 +22,9 @@ D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Base\MainWindow.ba
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\Button.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\Colors.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\Expander.baml
-D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\StyleTextBlock.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\TextBox.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\CalculatorBase.g.cs
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Pages\Calculator\CalculatorBase.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\App.baml
 D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\StyleBase\ScrollViewer.baml
-D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\Calculator\TextBlockStyle1.baml
+D:\NWE\NinjaWorld Encyclopedia\obj\Debug\net7.0-windows\Views\Styles\Calculator\TextBlockStyle.baml

@@ -18,7 +18,7 @@
     <Page Update="Views\Pages\Calculator\CalculatorBase.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Styles\Calculator\TextBlockStyle1.xaml">
+    <Page Update="Views\Styles\Calculator\TextBlockStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Styles\StyleBase\Button.xaml">
@@ -31,9 +31,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Styles\StyleBase\ScrollViewer.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\Styles\StyleBase\StyleTextBlock.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Styles\StyleBase\TextBox.xaml">

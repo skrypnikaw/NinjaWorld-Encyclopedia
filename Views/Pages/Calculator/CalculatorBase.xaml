@@ -13,7 +13,7 @@
     <Page.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Views/Styles/Calculator/TextBlockStyle1.xaml" />
+                <ResourceDictionary Source="/Views/Styles/Calculator/TextBlockStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Page.Resources>
@@ -53,7 +53,7 @@
                         BorderThickness="0,0,0,1">
                         <TextBlock
                             Margin="10,20,10,2"
-                            Style="{StaticResource StyleTextBlock}"
+                            Style="{StaticResource HeadingTextBlock}"
                             Text="Команда 1" />
                     </Border>
                     <Button Content="Персонаж 1" Template="{StaticResource BaseButton}" />
@@ -68,7 +68,7 @@
                         BorderThickness="0,0,0,1">
                         <TextBlock
                             Margin="10,50,10,2"
-                            Style="{StaticResource StyleTextBlock}"
+                            Style="{StaticResource HeadingTextBlock}"
                             Text="Команда 2" />
                     </Border>
                     <Button Content="Персонаж 1" Template="{StaticResource BaseButton}" />
@@ -84,55 +84,50 @@
 
         <!--#region // Контент //-->
 
-        <Grid DockPanel.Dock="Left">
+        <Grid MinWidth="1450" DockPanel.Dock="Left">
             <Grid MaxWidth="1350" HorizontalAlignment="Left">
                 <ScrollViewer Style="{DynamicResource ScrollViewerBase}">
                     <StackPanel ScrollViewer.CanContentScroll="True">
-                        <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Персонаж" />
+                        <TextBlock
+                            Margin="0,20,0,20"
+                            FontSize="32"
+                            Style="{DynamicResource HeadingTextBlock}"
+                            Text="Персонаж" />
                         <StackPanel Margin="0,5" Orientation="Horizontal">
                             <TextBlock
                                 Width="200"
-                                Style="{DynamicResource StyleTextBlock}"
+                                Style="{DynamicResource CenterTextBlock}"
                                 Text="Персонаж" />
                             <ComboBox Width="200" FontSize="18" />
                             <TextBlock
                                 Width="200"
-                                Style="{DynamicResource StyleTextBlock}"
+                                Style="{DynamicResource CenterTextBlock}"
                                 Text="Чакра" />
                             <ComboBox Width="200" FontSize="18" />
                             <TextBlock
                                 Width="200"
-                                Style="{DynamicResource StyleTextBlock}"
+                                Style="{DynamicResource CenterTextBlock}"
                                 Text="Мультипликатор" />
                             <TextBox Template="{DynamicResource TextBox}" />
                         </StackPanel>
 
-                        <Expander Margin="10,10,10,10" Style="{DynamicResource ExpanderStyle}">
+                        <Expander Margin="10,10,0,10" Style="{DynamicResource ExpanderStyle}">
                             <Expander.Header>
-                                <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Экипировка" />
+                                <TextBlock Style="{DynamicResource ExpanderTextBlock}" Text="Экипировка" />
                             </Expander.Header>
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="300" />
-                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Атака" />
                                     <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
-                                        Text="-Атака" />
-                                    <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
+                                        VerticalAlignment="Center"
+                                        Style="{DynamicResource CenterTextBlock}"
                                         Text="-Защита" />
-                                    <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
-                                        Text="+Конечный урон" />
-                                    <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
-                                        Text="-Конечный урон" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Конечный урон" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Конечный урон" />
 
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
@@ -143,9 +138,9 @@
                                 </StackPanel>
                             </Grid>
                         </Expander>
-                        <Expander Margin="10,10,10,10" Style="{DynamicResource ExpanderStyle}">
+                        <Expander Margin="10,10,0,10" Style="{DynamicResource ExpanderStyle}">
                             <Expander.Header>
-                                <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Бижутерия" />
+                                <TextBlock Style="{DynamicResource ExpanderTextBlock}" Text="Бижутерия" />
                             </Expander.Header>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -153,22 +148,10 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
-                                        Text="-Атака" />
-                                    <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
-                                        Text="-Защита" />
-                                    <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
-                                        Text="+Конечный урон" />
-                                    <TextBlock
-                                        Width="200"
-                                        Style="{DynamicResource StyleTextBlock}"
-                                        Text="-Конечный урон" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Защита" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Конечный урон" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Конечный урон" />
 
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
@@ -179,9 +162,9 @@
                                 </StackPanel>
                             </Grid>
                         </Expander>
-                        <Expander Margin="10,10,10,10" Style="{DynamicResource ExpanderStyle}">
+                        <Expander Margin="10,10,0,10" Style="{DynamicResource ExpanderStyle}">
                             <Expander.Header>
-                                <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Встройка" />
+                                <TextBlock Style="{DynamicResource ExpanderTextBlock}" Text="Встройка" />
                             </Expander.Header>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -189,9 +172,9 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Игнор Снижения Защиты" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Снижение Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Игнор Снижения Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Снижение Защиты" />
 
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
@@ -201,9 +184,9 @@
                                 </StackPanel>
                             </Grid>
                         </Expander>
-                        <Expander Margin="10,10,10,10" Style="{DynamicResource ExpanderStyle}">
+                        <Expander Margin="10,10,0,10" Style="{DynamicResource ExpanderStyle}">
                             <Expander.Header>
-                                <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Карта" />
+                                <TextBlock Style="{DynamicResource ExpanderTextBlock}" Text="Карта" />
                             </Expander.Header>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -211,15 +194,15 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Рейтинг Атаки" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Рейтинг Защиты" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="ХП" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Физическая Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Физическая Защита" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Стратегическая Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Стратегическая Защита" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Ярость" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Скорость" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Рейтинг Атаки" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Рейтинг Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="ХП" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Физическая Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Физическая Защита" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Стратегическая Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Стратегическая Защита" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Ярость" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Скорость" />
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
                                     <TextBox HorizontalAlignment="Left" Template="{DynamicResource TextBox}" />
@@ -234,9 +217,9 @@
                                 </StackPanel>
                             </Grid>
                         </Expander>
-                        <Expander Margin="10,10,10,10" Style="{DynamicResource ExpanderStyle}">
+                        <Expander Margin="10,10,0,10" Style="{DynamicResource ExpanderStyle}">
                             <Expander.Header>
-                                <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Аура" />
+                                <TextBlock Style="{DynamicResource ExpanderTextBlock}" Text="Аура" />
                             </Expander.Header>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -244,20 +227,20 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+ХП" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+Защита" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Защита" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+Скорость" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+Рейтинг Атаки" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Рейтинг Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+Рейтинг Защиты" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Рейтинг Защиты" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Снижение Среза Конечки" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+Конечка" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Конечка" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Игнорирование Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+ХП" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Защита" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Защита" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Скорость" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Рейтинг Атаки" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Рейтинг Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Рейтинг Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Рейтинг Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Снижение Среза Конечки" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Конечка" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Конечка" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Игнорирование Защиты" />
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
                                     <TextBox HorizontalAlignment="Left" Template="{DynamicResource TextBox}" />
@@ -277,9 +260,9 @@
                                 </StackPanel>
                             </Grid>
                         </Expander>
-                        <Expander Margin="10,10,10,10" Style="{DynamicResource ExpanderStyle}">
+                        <Expander Margin="10,10,0,10" Style="{DynamicResource ExpanderStyle}">
                             <Expander.Header>
-                                <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Баффы" />
+                                <TextBlock Style="{DynamicResource ExpanderTextBlock}" Text="Баффы" />
                             </Expander.Header>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -287,16 +270,16 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Защита" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="+Скорость" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Рейтинг Атаки" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Рейтинг Защиты" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Конечка" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Разрушающий Шторм" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Узы" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Огненный Шар" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Ветрянной Побег" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Защита" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="+Скорость" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Рейтинг Атаки" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Рейтинг Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Конечка" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Разрушающий Шторм" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Узы" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Огненный Шар" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Ветрянной Побег" />
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
                                     <TextBox HorizontalAlignment="Left" Template="{DynamicResource TextBox}" />
@@ -312,9 +295,9 @@
                                 </StackPanel>
                             </Grid>
                         </Expander>
-                        <Expander Margin="10,10,10,10" Style="{DynamicResource ExpanderStyle}">
+                        <Expander Margin="10,10,0,10" Style="{DynamicResource ExpanderStyle}">
                             <Expander.Header>
-                                <TextBlock Style="{DynamicResource StyleTextBlock}" Text="ДеБаффы" />
+                                <TextBlock Style="{DynamicResource ExpanderTextBlock}" Text="ДеБаффы" />
                             </Expander.Header>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -322,14 +305,14 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Атака" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Защита" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Скорость" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Рейтинг Атаки" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Рейтинг Защиты" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="-Конечка" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Коррозия" />
-                                    <TextBlock Style="{DynamicResource StyleTextBlock}" Text="Слабое Состояние" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Атака" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Защита" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Скорость" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Рейтинг Атаки" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Рейтинг Защиты" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="-Конечка" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Коррозия" />
+                                    <TextBlock Style="{DynamicResource CenterTextBlock}" Text="Слабое Состояние" />
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
                                     <TextBox HorizontalAlignment="Left" Template="{DynamicResource TextBox}" />
@@ -363,7 +346,7 @@
                                 <Setter Property="Width" Value="500" />
                                 <Setter Property="Visibility" Value="Collapsed" />
                                 <Style.Triggers>
-                                    <DataTrigger Binding="{Binding Path=IsChecked, ElementName=ToggleButtonOpen}" Value="false">
+                                    <DataTrigger Binding="{Binding Path=IsChecked, ElementName=ToggleButtonOpen}" Value="true">
                                         <Setter Property="Visibility" Value="Visible" />
                                     </DataTrigger>
                                 </Style.Triggers>
@@ -371,32 +354,32 @@
                         </Grid.Style>
                         <WrapPanel>
                             <StackPanel>
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="Противник 1 - Урон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="Противник 2 - Урон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="Противник 3 - Урон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="Противник 4 - Урон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="Противник 5 - Урон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="Противник 1 - Урон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="Противник 2 - Урон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="Противник 3 - Урон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="Противник 4 - Урон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="Противник 5 - Урон:" />
                             </StackPanel>
                             <StackPanel>
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
                             </StackPanel>
                             <StackPanel>
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="КритУрон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="КритУрон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="КритУрон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="КритУрон:" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="КритУрон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="КритУрон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="КритУрон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="КритУрон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="КритУрон:" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="КритУрон:" />
                             </StackPanel>
                             <StackPanel>
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
-                                <TextBlock Style="{DynamicResource StyleTB1}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
+                                <TextBlock Style="{DynamicResource RightTextBlock}" Text="0" />
                             </StackPanel>
                         </WrapPanel>
                         <Button
