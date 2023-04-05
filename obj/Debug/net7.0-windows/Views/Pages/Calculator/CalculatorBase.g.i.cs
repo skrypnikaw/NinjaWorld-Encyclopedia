@@ -60,7 +60,8 @@ namespace NinjaWorld_Encyclopedia.Views.Pages.Calculator {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/NinjaWorld Encyclopedia;component/views/pages/calculator/calculatorbase.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/NinjaWorld Encyclopedia;V1.0.0.0;component/views/pages/calculator/calculatorbase" +
+                    ".xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Views\Pages\Calculator\CalculatorBase.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

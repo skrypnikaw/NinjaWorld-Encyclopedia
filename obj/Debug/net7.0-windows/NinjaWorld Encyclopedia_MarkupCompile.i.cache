@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\NWE\NinjaWorld Encyclopedia\App.xaml
-8-1045133210
+18-468777462
 
-9498722900
+191660934934
 198-2048575587
-Views\Base\MainWindow.xaml;Views\Pages\Calculator\CalculatorBase.xaml;Views\Styles\Calculator\TextBlockStyle.xaml;Views\Styles\StyleBase\Button.xaml;Views\Styles\StyleBase\Colors.xaml;Views\Styles\StyleBase\Expander.xaml;Views\Styles\StyleBase\ScrollViewer.xaml;Views\Styles\StyleBase\TextBox.xaml;
+Views\Base\MainWindow.xaml;Views\Pages\Calculator\CalculatorBase.xaml;Views\Pages\Calculator\CalculatorTeam1Character1.xaml;Views\Pages\Calculator\CalculatorTeam1Character2.xaml;Views\Pages\Calculator\CalculatorTeam1Character3.xaml;Views\Pages\Calculator\CalculatorTeam1Character4.xaml;Views\Pages\Calculator\CalculatorTeam1Character5.xaml;Views\Pages\Calculator\CalculatorTeam2Character1.xaml;Views\Pages\Calculator\CalculatorTeam2Character2.xaml;Views\Pages\Calculator\CalculatorTeam2Character3.xaml;Views\Pages\Calculator\CalculatorTeam2Character4.xaml;Views\Pages\Calculator\CalculatorTeam2Character5.xaml;Views\Styles\Calculator\TextBlockStyle.xaml;Views\Styles\StyleBase\Button.xaml;Views\Styles\StyleBase\Colors.xaml;Views\Styles\StyleBase\Expander.xaml;Views\Styles\StyleBase\ScrollViewer.xaml;Views\Styles\StyleBase\TextBox.xaml;
 
 False
 
